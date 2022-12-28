@@ -62,5 +62,6 @@ inputs:
       converted to HTTPS.
     default: false
 runs:
-  using: node12
+  using: node16
   main: index.js
+  post: index.js
