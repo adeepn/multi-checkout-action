@@ -1,6 +1,6 @@
 {
   "name": "multi-checkout-action",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A GitHub Action to checkout multiple additional repositories",
   "license": "MIT",
   "private": true,
@@ -9,14 +9,14 @@
     "build": "cp node_modules/checkout/dist/index.js dist/checkout.js && cp node_modules/checkout/dist/problem-matcher.json dist/problem-matcher.json"
   },
   "dependencies": {
-    "checkout": "github:actions/checkout#v2.3.4"
+    "checkout": "github:actions/checkout#v3.2.0"
   },
   "devDependencies": {
     "standard": "^16.0.1"
   },
-  "repository": "vweevers/multi-checkout-action",
+  "repository": "adeepn/multi-checkout-action",
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "standard": {
     "ignore": [
